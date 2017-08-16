@@ -6287,6 +6287,9 @@ hr.section {
     -webkit-border-radius: 11px;
             border-radius: 11px;
     background-size: cover; }
+  .category-block p {
+    margin-top: 20px;
+    margin-bottom: 25px; }
   .category-block .read {
     color: #63b32e;
     position: relative;
