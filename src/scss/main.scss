@@ -38,6 +38,7 @@ header.header {
 				box-shadow: 0px 0px 6.65px 0.35px rgba(141, 141, 141, 0.35);
 				position: relative;
 				margin-left: 12px;
+				background-color: #fff;
 				a {
 					position: absolute;
 					left: 50%;
@@ -89,6 +90,12 @@ header.header {
 	.logo {
 		margin-top: 17px;
 		display: block;
+		width: 185px;
+		height: 63px;
+		img {
+			width: 185px;
+			height: 63px;
+		}
 	}
 }
 
@@ -97,4 +104,59 @@ header.header {
 	background-image: url(../img/main-screen.jpg);
 	background-size: cover;
 	width: 100%;  
+	.logo-central {
+		display: block;
+		margin: auto;
+		padding-top: 160px;
+	}
+	
+	h1 {
+		font-size: 60px;
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 1;
+		text-shadow: 0px 1px 18px rgba(0, 2, 1, 0.22);
+		text-align: center;
+	}
+	.block {
+		border-radius: 11px;
+		background-color: rgba(255,255,255,.902);
+		height: 183px; 
+		text-align: center;
+		padding-top: 40px;
+		padding-left: 10px;
+		padding-right: 10px;
+		&.active {
+			background-color: #63b32e;
+			cursor: pointer;
+			.title {
+				color: #fff;
+			}			
+			.img {
+				background-image: url(../img/1-black.png);
+			}
+		}
+		&:hover {
+			background-color: #63b32e;
+			cursor: pointer;
+			.title {
+				color: #fff;
+			}
+			.img {
+				background-image: url(../img/1-black.png);
+			}
+		}
+		.img {
+			height: 58px;
+			width: 59px;
+			display: block;
+			margin: auto;
+			margin-bottom: 20px;
+			background-image: url(../img/1.png);
+		}
+		.title {
+			color: #636060;
+			text-transform: uppercase;
+		}
+	}
 }
