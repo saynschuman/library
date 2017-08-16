@@ -15,6 +15,18 @@ a:hover {
 	transition:.3s;
 }
 
+button {
+	&:focus {
+		outline: none;
+	}
+}
+
+input {
+	&:focus {
+		outline: none;
+	}
+}
+
 header.header {
 	position: absolute;
 	background-color: rgba(255, 255, 255,.902);
@@ -117,6 +129,8 @@ header.header {
 		line-height: 1;
 		text-shadow: 0px 1px 18px rgba(0, 2, 1, 0.22);
 		text-align: center;
+	    margin-top: 30px;
+    	margin-bottom: 40px;
 	}
 	.block {
 		border-radius: 11px;
@@ -126,6 +140,7 @@ header.header {
 		padding-top: 40px;
 		padding-left: 10px;
 		padding-right: 10px;
+		margin-bottom: 28px;
 		&.active {
 			background-color: #63b32e;
 			cursor: pointer;
@@ -158,5 +173,36 @@ header.header {
 			color: #636060;
 			text-transform: uppercase;
 		}
+	}
+}
+
+#search-cat {
+	position: relative;
+	&.focus {
+		&::before {
+			display: none;
+		}
+	}
+	&::before {
+		content: '';
+		position: absolute;
+		left: calc(50% - 53px);
+		top: 50%;
+		transform: translate(-50%,-50%);
+		height: 32px;
+		width: 31px;
+		background-image: url(../img/search.png); 
+		opacity: .6;
+	}
+	input {
+		height: 70px;
+		background: none;
+		background-color: rgba(255,255,255,.902);
+		border: none;
+		border-radius: 11px; 
+		color: #2a2a2a;
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
 	}
 }
