@@ -206,3 +206,64 @@ header.header {
 		text-transform: uppercase;
 	}
 }
+
+section.video {
+	background-color: #8adefd;
+    padding-top: 80px;
+    padding-bottom: 60px;
+	h2 {
+		color: #fff;
+		font-size: 25px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		margin-top: 0;
+		&::before {
+			content: '';
+			width: 34px;
+			height: 31px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 12px;
+			background-image: url(../img/what.png); 
+		}
+	}
+	p {
+		margin-bottom: 25px;
+		line-height: 1.5;
+		color: #fff;
+	}
+}
+
+.video-js .vjs-tech {
+    height: 100%;
+}
+
+.video-js .vjs-tech, .vjs-poster {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.video-js {
+	height: 259px;
+    width: 100%;
+    border-radius: 11px;
+}
+
+.vjs-poster {
+	background-size: cover !important;
+	opacity: 1 !important; 
+}
+
+.vjs-afterglow-skin .vjs-big-play-button:before {
+	content: '' !important;
+	box-shadow: 0px 1px 10px 0px rgba(0, 2, 1, 0.5);
+	border-radius: 100%;
+	background-image: url(../img/play.png);
+}
+
+.vjs-afterglow-skin .vjs-big-play-button {
+	width: 72px !important;
+	height: 72px !important;
+}
