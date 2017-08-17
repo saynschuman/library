@@ -6452,3 +6452,36 @@ footer.footer {
 
 main.category-page {
   padding-top: 70px; }
+  main.category-page .category-section {
+    padding-bottom: 0; }
+
+.pag-block {
+  text-align: center; }
+
+.pagination {
+  margin-top: 0;
+  margin-bottom: 40px; }
+
+.pagination > li > a, .pagination > li > span {
+  border: none;
+  font-size: 25px;
+  color: #4a4747; }
+
+.pagination > li {
+  border: none !important; }
+
+.pagination > li > a > i:first-child {
+  margin-right: -3px; }
+
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+  background-color: transparent;
+  color: #77b32e; }
+
+.pagination > .active > a {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer; }
+
+.pagination > li.active > a {
+  color: #77b32e; }
