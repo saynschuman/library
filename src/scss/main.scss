@@ -148,7 +148,7 @@ header.header {
 				color: #fff;
 			}			
 			.img {
-				background-image: url(../img/1-black.png);
+
 			}
 		}
 		&:hover {
@@ -158,20 +158,56 @@ header.header {
 				color: #fff;
 			}
 			.img {
-				background-image: url(../img/1-black.png);
+				&#police {
+					background-position: -17px -103px;
+				}
+				&#family {
+					background-position: -234px -103px;
+				}
+				&#work {
+					background-position: -449px -103px;
+				}
+				&#users {
+					background-position: -661px -103px;
+				}
+				&#docs {
+					background-position: -875px -103px;
+				}
+				&#zhgk {
+					background-position: -1088px -103px;
+				}
 			}
 		}
 		.img {
-			height: 58px;
-			width: 59px;
+			width: 60px;
+			height: 60px;
 			display: block;
 			margin: auto;
-			margin-bottom: 20px;
-			background-image: url(../img/1.png);
+			background-image: url(../img/ic-sprite.png);
+			background-position: 0 0; 
+			&#police {
+				background-position: -17px -26px;
+			}
+			&#family {
+				background-position: -234px -26px;
+			}
+			&#work {
+				background-position: -449px -26px;
+			}
+			&#users {
+				background-position: -661px -26px;
+			}
+			&#docs {
+				background-position: -875px -26px;
+			}
+			&#zhgk {
+				background-position: -1088px -26px;
+			}
 		}
 		.title {
 			color: #636060;
 			text-transform: uppercase;
+			margin-top: 12px;
 		}
 	}
 }

@@ -6098,25 +6098,46 @@ header.header {
       cursor: pointer; }
       .main-screen .block.active .title {
         color: #fff; }
-      .main-screen .block.active .img {
-        background-image: url(../img/1-black.png); }
     .main-screen .block:hover {
       background-color: #63b32e;
       cursor: pointer; }
       .main-screen .block:hover .title {
         color: #fff; }
-      .main-screen .block:hover .img {
-        background-image: url(../img/1-black.png); }
+      .main-screen .block:hover .img#police {
+        background-position: -17px -103px; }
+      .main-screen .block:hover .img#family {
+        background-position: -234px -103px; }
+      .main-screen .block:hover .img#work {
+        background-position: -449px -103px; }
+      .main-screen .block:hover .img#users {
+        background-position: -661px -103px; }
+      .main-screen .block:hover .img#docs {
+        background-position: -875px -103px; }
+      .main-screen .block:hover .img#zhgk {
+        background-position: -1088px -103px; }
     .main-screen .block .img {
-      height: 58px;
-      width: 59px;
+      width: 60px;
+      height: 60px;
       display: block;
       margin: auto;
-      margin-bottom: 20px;
-      background-image: url(../img/1.png); }
+      background-image: url(../img/ic-sprite.png);
+      background-position: 0 0; }
+      .main-screen .block .img#police {
+        background-position: -17px -26px; }
+      .main-screen .block .img#family {
+        background-position: -234px -26px; }
+      .main-screen .block .img#work {
+        background-position: -449px -26px; }
+      .main-screen .block .img#users {
+        background-position: -661px -26px; }
+      .main-screen .block .img#docs {
+        background-position: -875px -26px; }
+      .main-screen .block .img#zhgk {
+        background-position: -1088px -26px; }
     .main-screen .block .title {
       color: #636060;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-top: 12px; }
 
 #search-cat {
   position: relative; }
