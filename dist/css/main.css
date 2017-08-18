@@ -6608,3 +6608,8 @@ main.category-page {
 .article-page p {
   line-height: 1.5;
   margin-bottom: 20px; }
+
+hr.hr-art {
+  margin-top: 7px;
+  margin-bottom: 0;
+  border-top: 1px solid #e9e7d9; }
