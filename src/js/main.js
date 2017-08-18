@@ -23,4 +23,18 @@
 	   $(this).attr('placeholder',$(this).data('placeholder'));
 	 });	
 
+	 $('#new-btn').click(function(){
+	 	$('#pop-btn').removeClass('active');
+	 	$(this).addClass('active');
+	 	$('#pop-body').removeClass('active');
+	 	$('#new-body').addClass('active');
+	 })
+
+	 $('#pop-btn').click(function(){
+	 	$('#new-btn').removeClass('active');
+	 	$(this).addClass('active');
+	 	$('#new-body').removeClass('active');
+	 	$('#pop-body').addClass('active');
+	 })
+
 })(jQuery);
