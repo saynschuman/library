@@ -591,6 +591,7 @@ main.category-page {
 	border: none;
 	font-size: 25px;
 	color: #4a4747;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .pagination > li {
@@ -615,4 +616,43 @@ main.category-page {
 
 .pagination > li.active > a {
 	color: #77b32e;
+}
+
+.rec-title {
+	font-size: 25px;
+	font-family: "OpenSans-ExtraBold";
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 23px;
+	margin-bottom: 21px;
+}
+
+.article-page {
+	.page-image {
+		height: 317px;
+		width: 100%;
+		border-radius: 11px;
+		background-size: cover;
+		background-position: 0px -170px;
+		padding-top: 170px;
+	}
+	h1 {
+		font-family: "OpenSans-Bold";
+		font-size: 60px;
+		color: #fff;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		text-shadow: 0px 1px 18px rgba(0, 2, 1, 0.22);
+	}
+	article {
+		margin-top: 60px;
+	}
+	.category-name {
+		font-size: 25px;
+		font-family: "OpenSans-ExtraBold";
+		color: #fff;
+		font-variant: small-caps;
+		text-align: center;
+	}
 }
