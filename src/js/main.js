@@ -37,4 +37,20 @@
 	 	$('#pop-body').addClass('active');
 	 })
 
+	// menu 
+
+	$('.mob-button').click(function(){
+		$(this).children('span').toggleClass('active');
+		$('.mobile-toggle ').toggleClass('active');
+	})
+
+	$('.search-button').click(function(){
+		$('#mobile-search').toggleClass('active');
+		$('#mobile-search input').focus();
+	})
+
+	$('#mobile-search input').blur(function(){
+		$('#mobile-search').toggleClass('active');
+	});
+
 })(jQuery);
