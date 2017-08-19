@@ -164,7 +164,24 @@ header.header {
 				color: #fff;
 			}			
 			.img {
-
+				&#police {
+					background-position: -17px -103px;
+				}
+				&#family {
+					background-position: -234px -103px;
+				}
+				&#work {
+					background-position: -449px -103px;
+				}
+				&#users {
+					background-position: -661px -103px;
+				}
+				&#docs {
+					background-position: -875px -103px;
+				}
+				&#zhgk {
+					background-position: -1088px -103px;
+				}
 			}
 		}
 		&:hover {
@@ -242,9 +259,11 @@ header.header {
 		top: 50%;
 		transform: translate(-50%,-50%);
 		height: 32px;
-		width: 31px;
+		width: 32px;
 		background-image: url(../img/search.png); 
 		opacity: .6;
+	    background-position: 1px 0;
+    	background-repeat: no-repeat;
 	}
 	input {
 		height: 70px;
@@ -387,6 +406,14 @@ hr.section {
 		}
 		.title::before {
 			background-color: #fff; 
+		}
+		.share-links {
+			li {
+				border: 1px solid #fff;
+				a {
+					color: #fff;
+				}
+			}
 		}		
 	} 
 	.title {

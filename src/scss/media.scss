@@ -112,6 +112,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	footer.footer ul li a#tel {
+		font-size: 14px;
+	}
 	.category-block .share-links li {
 		margin-left: 0;
 	}

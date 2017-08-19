@@ -6110,6 +6110,18 @@ header.header {
       cursor: pointer; }
       .main-screen .block.active .title {
         color: #fff; }
+      .main-screen .block.active .img#police {
+        background-position: -17px -103px; }
+      .main-screen .block.active .img#family {
+        background-position: -234px -103px; }
+      .main-screen .block.active .img#work {
+        background-position: -449px -103px; }
+      .main-screen .block.active .img#users {
+        background-position: -661px -103px; }
+      .main-screen .block.active .img#docs {
+        background-position: -875px -103px; }
+      .main-screen .block.active .img#zhgk {
+        background-position: -1088px -103px; }
     .main-screen .block:hover {
       background-color: #63b32e;
       cursor: pointer; }
@@ -6165,9 +6177,11 @@ header.header {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     height: 32px;
-    width: 31px;
+    width: 32px;
     background-image: url(../img/search.png);
-    opacity: .6; }
+    opacity: .6;
+    background-position: 1px 0;
+    background-repeat: no-repeat; }
   #search-cat input {
     height: 70px;
     background: none;
@@ -6293,6 +6307,10 @@ hr.section {
         background-color: #fff; }
     .category-block:hover .title::before {
       background-color: #fff; }
+    .category-block:hover .share-links li {
+      border: 1px solid #fff; }
+      .category-block:hover .share-links li a {
+        color: #fff; }
   .category-block .title {
     font-family: "OpenSans-ExtraBold";
     font-size: 19px;
